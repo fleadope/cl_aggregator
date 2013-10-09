@@ -15,7 +15,7 @@ gem 'slim'
 gem 'thin'
 gem "chronic"
 gem "typhoeus"
-gem "resque"
+gem "sucker_punch"
 gem "nokogiri"
 
 group :development do
