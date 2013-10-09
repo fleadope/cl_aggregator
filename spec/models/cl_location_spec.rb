@@ -8,6 +8,5 @@ describe ClLocation do
   it "should return a proper domain" do
       domain = "#{@loc.name}.craigslist.org"
       @loc.domain.should == domain
-
   end
 end
