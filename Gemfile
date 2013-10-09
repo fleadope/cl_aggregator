@@ -17,6 +17,7 @@ gem "chronic"
 gem "typhoeus"
 gem "resque"
 gem "nokogiri"
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
@@ -26,10 +27,23 @@ group :development do
   gem 'quiet_assets'
   gem 'rails_layout'
 end
+
 group :development, :test do
   gem 'fabrication'
+  gem 'coderay', '~> 1.0.9'
+  gem 'rspec', '~> 2.4'
   gem 'rspec-rails'
+  gem "zeus"
+  gem "guard", "~> 2.0"
+  # needs dependencies updated to guard 2.0
+  # gem "guard-bundler"
+  gem "guard-rspec"
+  gem "guard-zeus"
+  gem "rb-inotify", require: false
+  gem "rb-fsevent", require: false
+  gem "rb-fchange", require: false
 end
+
 group :test do
   gem 'database_cleaner', '1.0.1'
   gem 'email_spec'
