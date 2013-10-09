@@ -73,3 +73,6 @@ pickle-email-*.html
 
 # vim artifacts
 **.swp
+
+# local env variables
+.env
