@@ -26,6 +26,7 @@ group :development do
   gem 'html2haml'
   gem 'quiet_assets'
   gem 'rails_layout'
+  gem 'pry-rails'
 end
 
 group :development, :test do
