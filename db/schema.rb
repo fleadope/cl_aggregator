@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131009070247) do
+ActiveRecord::Schema.define(version: 20131009084331) do
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -25,6 +25,20 @@ ActiveRecord::Schema.define(version: 20131009070247) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "search_results", force: true do |t|
+    t.integer  "pid"
+    t.string   "date"
+    t.string   "href"
+    t.string   "text"
+    t.integer  "search_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "search_results", ["href"], name: "index_search_results_on_href", using: :btree
+  add_index "search_results", ["pid"], name: "index_search_results_on_pid", unique: true, using: :btree
+  add_index "search_results", ["search_id"], name: "index_search_results_on_search_id", using: :btree
 
   create_table "searches", force: true do |t|
     t.string   "terms"

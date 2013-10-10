@@ -9,6 +9,9 @@ Bundler.require(:default, Rails.env)
 module ClAggregator
   class Application < Rails::Application
 
+      # autoload from ./lib
+      config.autoload_paths += %w(#{config.root}/lib)
+
     # don't generate RSpec tests for views and helpers
     config.generators do |g|
       
