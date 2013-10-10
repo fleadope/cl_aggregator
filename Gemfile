@@ -17,6 +17,7 @@ gem "chronic"
 gem "typhoeus"
 gem "sucker_punch"
 gem "nokogiri"
+gem 'uri-handler'
 
 group :development do
   gem 'better_errors'
