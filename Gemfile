@@ -38,7 +38,7 @@ group :development, :test do
   gem "zeus"
   gem "guard", "~> 2.0"
   # needs dependencies updated to guard 2.0
-  # gem "guard-bundler"
+  gem "guard-bundler"
   gem "guard-rspec"
   gem "guard-zeus"
   gem "rb-inotify", require: false

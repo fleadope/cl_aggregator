@@ -1,7 +1,6 @@
-# Leave out until guard-bundler is updated
-#guard "bundler" do
-    #watch "Gemfile"
-#end
+guard "bundler" do
+    watch "Gemfile"
+end
 
 guard :rspec, zeus: true, notification: true do
   watch(%r{^spec/.+_spec\.rb$})
