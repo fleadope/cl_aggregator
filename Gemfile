@@ -37,7 +37,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem "zeus"
   gem "guard", "~> 2.0"
-  # needs dependencies updated to guard 2.0
+  gem "faker"
   gem "guard-bundler"
   gem "guard-rspec"
   gem "guard-zeus"
