@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131025182004) do
+ActiveRecord::Schema.define(version: 20131025210522) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,11 +23,27 @@ ActiveRecord::Schema.define(version: 20131025182004) do
     t.datetime "updated_at"
   end
 
+  create_table "categories_searches", id: false, force: true do |t|
+    t.integer "category_id", null: false
+    t.integer "search_id",   null: false
+  end
+
+  add_index "categories_searches", ["category_id", "search_id"], name: "index_categories_searches_on_category_id_and_search_id", using: :btree
+  add_index "categories_searches", ["search_id", "category_id"], name: "index_categories_searches_on_search_id_and_category_id", using: :btree
+
   create_table "cl_locations", force: true do |t|
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "cl_locations_searches", id: false, force: true do |t|
+    t.integer "cl_location_id", null: false
+    t.integer "search_id",      null: false
+  end
+
+  add_index "cl_locations_searches", ["cl_location_id", "search_id"], name: "index_cl_locations_searches_on_cl_location_id_and_search_id", using: :btree
+  add_index "cl_locations_searches", ["search_id", "cl_location_id"], name: "index_cl_locations_searches_on_search_id_and_cl_location_id", using: :btree
 
   create_table "search_results", force: true do |t|
     t.integer  "pid"

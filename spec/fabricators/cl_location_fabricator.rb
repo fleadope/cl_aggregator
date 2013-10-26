@@ -1,3 +1,4 @@
 Fabricator(:cl_location) do
-  name   "cl_location"
+  name   "sacramento"
+  searches(count: 1)
 end
