@@ -28,6 +28,7 @@ group :development do
   gem 'quiet_assets'
   gem 'rails_layout'
   gem 'pry-rails'
+  gem 'awesome_print'
 end
 
 group :development, :test do
