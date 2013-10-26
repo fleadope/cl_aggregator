@@ -1,5 +1,4 @@
 class UrlGenerator
-:A
     attr_reader :search
 
     def initialize(search)
@@ -16,8 +15,10 @@ class UrlGenerator
         end
     end
 
-    private
     def search_url(loc, category)
-        "http://#{loc.name}.craigslist.org/search/?query=#{search.terms.to_uri}&catAbb=#{category.abbreviation}"
+        price_str = search.min_price ? "minAsk=#{search.min_price}&maxAsk=#{search.max_price}" : nil
+        cat_str = "&catAbb=#{category.abbreviation || Category.default}"
+        query_str = "query=#{search.terms.to_uri}"
+        "http://#{loc.name}.craigslist.org/search/?#{query_str}&#{cat_str}&#{price_str}"
     end
 end
