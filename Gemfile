@@ -46,6 +46,7 @@ group :development, :test do
   gem "rb-fsevent", require: false
   gem "rb-fchange", require: false
   gem 'vcr'
+  gem 'fuubar'
 end
 
 group :test do
