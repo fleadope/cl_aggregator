@@ -27,8 +27,8 @@ describe SearchParser do
         subject { parser }
         it { should respond_to(:next) }
         it "should be a url" do
-        expect(subject.next).to be_a(String)
-    end
+            expect(subject.next).to be_a(String)
+        end
     end
 
     describe "#results" do
