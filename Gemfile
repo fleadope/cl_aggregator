@@ -14,7 +14,7 @@ gem 'simple_form', '>= 3.0.0.rc'
 gem 'slim'
 gem 'thin'
 gem "chronic"
-gem "typhoeus"
+gem "faraday"
 gem "sucker_punch"
 gem "nokogiri"
 gem 'uri-handler'

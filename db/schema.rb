@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131025210522) do
+ActiveRecord::Schema.define(version: 20131029233744) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -46,17 +46,17 @@ ActiveRecord::Schema.define(version: 20131025210522) do
   add_index "cl_locations_searches", ["search_id", "cl_location_id"], name: "index_cl_locations_searches_on_search_id_and_cl_location_id", using: :btree
 
   create_table "search_results", force: true do |t|
-    t.integer  "pid"
     t.string   "date"
     t.string   "href"
     t.string   "text"
     t.integer  "search_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "pid"
   end
 
   add_index "search_results", ["href"], name: "index_search_results_on_href", using: :btree
-  add_index "search_results", ["pid"], name: "index_search_results_on_pid", unique: true, using: :btree
+  add_index "search_results", ["pid"], name: "index_search_results_on_pid", using: :btree
   add_index "search_results", ["search_id"], name: "index_search_results_on_search_id", using: :btree
 
   create_table "searches", force: true do |t|
@@ -66,6 +66,8 @@ ActiveRecord::Schema.define(version: 20131025210522) do
     t.integer  "category_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "failures",       default: 0
+    t.text     "failure_detail"
   end
 
   add_index "searches", ["category_id"], name: "index_searches_on_category_id", using: :btree

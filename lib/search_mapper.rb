@@ -1,14 +1,14 @@
 class SearchMapper
 
     attr_reader :parser
-    def init(parser)
+    def initialize(parser)
         @parser = parser
     end
 
     def persist_results(search_id)
         search = Search.find(search_id)
         parser.results.each do |found|
-        to_save = search.results.find_or_create_by_pid(found.pid)
+        to_save = search.results.find_or_create_by(pid: found.pid)
         map(found, to_save)
         to_save.save
         end

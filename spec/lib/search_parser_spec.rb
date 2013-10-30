@@ -2,14 +2,33 @@ require 'search_parser'
 require 'shared_context/setup_parser'
 
 describe SearchParser do 
-    include_context "setup parser"
+    include SetupParser 
 
-    it "should have a parser" do
-        expect(parser).to be_true
-    end
+    let!(:setup)  { setup_parser }
+    let(:parser)  { setup.first }
+    let(:results) { setup.last }
 
     it "should find results" do
         expect(results).to be_an(Array)
+    end
+
+    describe "#has_more?" do
+        subject { parser }
+        it { should respond_to(:has_more?) }
+
+        it "should be false if there are no more" do
+            search = Fabricate(:search, terms: "terms")
+            parser = setup_parser(search).first
+            expect(parser.has_more?).not_to be(true)
+        end 
+    end
+
+    describe "#next" do
+        subject { parser }
+        it { should respond_to(:next) }
+        it "should be a url" do
+        expect(subject.next).to be_a(String)
+    end
     end
 
     describe "#results" do
@@ -25,20 +44,20 @@ describe SearchParser do
             it { should be_a(SearchParser::Result) }
 
             it "#pid" do
-                expect(subject.pid).to eq "4098602179"
+                expect(subject.pid).to eq "4160309386"
             end
 
             it "#href" do
-                expect(subject.href).to eq "/sys/#{subject.pid}.html"
+                expect(subject.href).to eq "/bab/#{subject.pid}.html"
             end
 
             it "#date" do
-                result = Date.parse("26 Oct 2013")
+                result = Date.parse("29 Oct 2013")
                 expect(subject.date).to eq result
             end
 
             it "#text" do
-                expect(subject.text).to eq "HP Deskjet 6988 Wireless / Network"
+                expect(subject.text).to eq "2 car seats, feeding chair, diaper champ, more kids items"
             end
         end
     end

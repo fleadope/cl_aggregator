@@ -10,7 +10,7 @@ module ClAggregator
   class Application < Rails::Application
 
       # autoload from ./lib
-      config.autoload_paths += %w(#{config.root}/lib)
+      config.autoload_paths += %w(#{config.root}/app/jobs)
 
     # don't generate RSpec tests for views and helpers
     config.generators do |g|

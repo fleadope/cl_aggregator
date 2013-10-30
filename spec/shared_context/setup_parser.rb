@@ -1,11 +1,13 @@
 require 'url_generator'
 
-shared_context "setup parser" do
-    let!(:search) { Fabricate(:search) }
-    let!(:generator) { UrlGenerator.new(search) }
-    let!(:url) { generator.generate.first }
-    let(:txt) { VCR.use_cassette('beds') { Typhoeus.get(url).body }}
-    let!(:parser) { described_class.new(txt) }
-    let!(:results) { parser.results }
+module SetupParser
+    def setup_parser(search = Fabricate(:search))
+        generator = UrlGenerator.new(search) 
+        url = generator.urls.first 
+        txt = VCR.use_cassette(search.terms) { Faraday.get(url).body }
+        parser = described_class.new(txt) 
+        results = parser.results 
+        return parser, results
+    end
 end
 
