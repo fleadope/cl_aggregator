@@ -12,6 +12,12 @@ class CustomPlan < Zeus::Rails
         append_pattern_and_run("spec/**/*_spec.rb", argv)
     end
 
+    # Randomize the order
+    def after_fork
+        srand
+        super
+    end
+
     private 
     def append_pattern_and_run(glob, argv)
         pattern = Dir.glob(glob).inject(%w[--pattern]) do |result, file|
