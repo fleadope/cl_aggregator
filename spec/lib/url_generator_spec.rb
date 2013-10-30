@@ -10,18 +10,18 @@ describe UrlGenerator do
     end
 
     it "should generate an array" do
-        expect(generator.generate).to be_an Array
+        expect(generator.urls).to be_an Array
     end
 
     describe ".results" do
-        subject(:results) { generator.generate }
+        subject(:results) { generator.urls }
 
         it "should be an Array" do
             expect(subject).to be_an(Array)
         end
 
         it "should be the right url" do
-            res = "http://sacramento.craigslist.org/search/?query=term&&catAbb=sss&minAsk=1&maxAsk=100"
+            res = "http://sacramento.craigslist.org/search/?query=bed&&catAbb=sss&minAsk=1&maxAsk=100"
             expect(results.first).to eq(res)
         end
     end

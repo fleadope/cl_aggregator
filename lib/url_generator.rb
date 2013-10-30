@@ -5,7 +5,7 @@ class UrlGenerator
         @search = search
     end
 
-    def generate
+    def urls
         ClLocation.all.inject([]) do |results, loc|
             search.categories.each do |category|
                 results << search_url(loc, category)

@@ -1,5 +1,5 @@
 Fabricator(:search) do
-  terms     "term"
+  terms     "bed"
   min_price 1
   max_price 100
   categories(count: 1) { Fabricate(:category, searches: []) }
