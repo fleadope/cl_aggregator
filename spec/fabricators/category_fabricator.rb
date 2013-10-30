@@ -1,4 +1,4 @@
 Fabricator(:category) do
-  name         "MyString"
-  abbreviation "MyString"
+  name         "sacramento"
+  searches(count: 1) 
 end

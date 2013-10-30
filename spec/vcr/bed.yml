@@ -1,0 +1,935 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://sacramento.craigslist.org/search/?query=bed&catAbb=sss&minAsk=1&maxAsk=100
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.8
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      connection:
+      - close
+      cache-control:
+      - max-age=900, public
+      last-modified:
+      - Wed, 30 Oct 2013 04:36:08 GMT
+      date:
+      - Wed, 30 Oct 2013 04:36:08 GMT
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '11800'
+      content-type:
+      - text/html; charset=utf-8
+      set-cookie:
+      - cl_b=Sm3VyxxB4xG5Nx2QkbspaQvxghQ;path=/;domain=.craigslist.org;expires=Fri,
+        01-Jan-2038 00:00:00 GMT
+      server:
+      - Apache
+      expires:
+      - Wed, 30 Oct 2013 04:51:08 GMT
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html class=\"nojs\"><head>\n\t<title>sacramento all
+        for sale / wanted classifieds &quot;bed&quot; - craigslist</title>\n\n\t<meta
+        name=\"description\" content=\"sacramento all for sale / wanted classifieds
+        &quot;bed&quot; - craigslist\">\n\t<link rel=\"alternate\" type=\"application/rss+xml\"
+        href=\"http://sacramento.craigslist.org/search/?catAbb=sss&amp;maxAsk=100&amp;minAsk=1&amp;query=bed&amp;format=rss\"
+        title=\"RSS feed for craigslist | all for sale / wanted &quot;bed&quot; in
+        sacramento \">\n    <meta name=\"viewport\" content=\"initial-scale=1.0, user-scalable=1\">\n
+        \   <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/clnew.css?v=1a569201d1d03047755f8cd292f1f6ce\">\n
+        \   <link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=cb67f2e720fe8a2c7d83234590b2d1ed\">\n
+        \   \n    \n    \n\t\t<script type=\"text/javascript\"><!--\n\t\t\tvar currencySymbol
+        = \"$\";\nvar zoomToPosting = null;\nvar showInfoText = \"show info\";\nvar
+        imageHost = \"http://images.craigslist.org\";\nvar lessInfoText = \"less info\";\nvar
+        showMapTabs = 1;\nvar areaCountry = \"US\";\nvar areaID = \"12\";\nvar starHint
+        = \"save this post in your favorites list\";\nvar expFaves = \"\";\nvar pID
+        = null;\nvar catAbb = \"sss\";\nvar catType = \"sss\";\n\n\t\t--></script>\n\t\n
+        \   <!--[if lt IE 9]>\n<script type=\"text/javascript\" src=\"//www.craigslist.org/js/html5shiv.js?v=ed7af45dcbda983c8455631037ebcdda\"
+        ></script>\n<![endif]-->\n</head>\n\n<body class=\"toc search\">\n    <script
+        type=\"text/javascript\"><!--\n\tfunction C(k){return(document.cookie.match('(^|;
+        )'+k+'=([^;]*)')||0)[2]}\n\tvar pagetype, pagemode;\n\t(function(){\n\t\tvar
+        h = document.documentElement;\n\t\th.className = h.className.replace('nojs',
+        '');\n\t\tvar b = document.body;\n\t\tvar bodyClassList = b.className.split(/\\s+/);;\n\t\tpagetype
+        = bodyClassList[0];\n\t\tvar fmt = C('cl_fmt');\n\t\tif (fmt) {\n\t\t\tpagemode
+        = fmt;\n\t\t\tbodyClassList.push(fmt);\n\t\t} else if (screen.width <= 480)
+        {\n\t\t\tpagemode = 'mobile';\n\t\t\tbodyClassList.push(pagemode);\n\t\t}\n\t\tvar
+        width = window.innerWidth || document.documentElement.clientWidth;\n\t\tif
+        (width > 1000) { bodyClassList.push('w1024'); }\n\t\tif (typeof catType !==
+        'undefined') {\n\t\t\tvar mode = (decodeURIComponent(C('cl_img') || '').match(new
+        RegExp(catType + ':([^,]+)', 'i')) || {})[1];\n\t\t\tfor (var i = 0, len =
+        bodyClassList.length; i < len; i++){\n\t\t\t\tif (bodyClassList[i] === 'map')
+        { mode = undefined; }\n\t\t\t}\n\t\t\tif (mode) { bodyClassList.push(mode);
+        }\n\t\t}\n\t\tb.className = bodyClassList.join(' ');\n\t}());\n--></script>\n\n\n
+        \   <article id=\"pagecontainer\">\n\n        <header class=\"bchead\">\n\t<div
+        class=\"contents closed\">\n\t\t<div class=\"topright_box\">\n\t\t\t<div id=\"ef\">\n\t[
+        <a href=\"http://www.craigslist.org/about/help/\">help</a> ] \n\t[ <a href=\"https://post.craigslist.org/c/sac?lang=en\">post</a>
+        ]\n</div>\n\n\t\t\t<div id=\"favorites\">\n    <a href=\"#\" class=\"favlink\"><span
+        class=\"n\">0</span> favorites</a>\n</div>\n\n\t\t</div>\n\t\t<div class=\"dropdown
+        down\">&or;</div>\n\t\t<div class=\"dropdown up\">&and;</div>\n\t\t<div class=\"leftside\">\n
+        \           <button class=\"back\">&lt;</button>\n            <div class=\"breadbox\">\n
+        \               <div class=\"breadcrumbs\">\n                    <span class=\"crumb\"><a
+        href=\"//www.craigslist.org/about/sites\">CL</a></span>\n                    <span
+        class=\"crumb\"><a href=\"/\">sacramento</a></span>    <span class=\"crumb\"><a
+        href=\"/sss/\">for sale / wanted</a></span> \n                </div>\n            </div>\n\t\t</div>\n
+        \       \n\t</div>\n</header>\n\n\n        <blockquote>\n\n\t\t<script type=\"text/javascript\"><!--\n\t\t\tvar
+        catAbb = \"sss\";\n\n\t\t--></script>\n\t\n<form action=\"/search/sss\" id=\"searchform\"
+        method=\"get\" accept-charset=\"utf-8\">\n\n    <fieldset id=\"searchfieldset\">\n
+        \   <legend id=\"searchlegend\"><select id=\"catAbb\" name=\"catAbb\">\n\n
+        \               <option value=\"ccc\">all community\n\n                <option
+        value=\"eee\">all event\n\n                <option value=\"sss\" selected>all
+        for sale / wanted\n<option disabled value=\"\">--\n<option value=\"ata\">
+        antiques\n<option data-acat=\"ata\" value=\"atd\"> antiques - by dealer\n<option
+        data-acat=\"ata\" value=\"atq\"> antiques - by owner\n<option value=\"ppa\">
+        appliances\n<option data-acat=\"ppa\" value=\"ppd\"> appliances - by dealer\n<option
+        data-acat=\"ppa\" value=\"app\"> appliances - by owner\n<option value=\"ara\">
+        arts+crafts\n<option data-acat=\"ara\" value=\"ard\"> arts &amp; crafts -
+        by dealer\n<option data-acat=\"ara\" value=\"art\"> arts &amp; crafts - by
+        owner\n<option value=\"sna\"> atvs/utvs/snowmobiles\n<option data-acat=\"sna\"
+        value=\"snd\"> atvs, utvs, snowmobiles - by dea\n<option data-acat=\"sna\"
+        value=\"sno\"> atvs, utvs, snowmobiles - by own\n<option value=\"pta\"> auto
+        parts\n<option data-acat=\"pta\" value=\"ptd\"> auto parts - by dealer\n<option
+        data-acat=\"pta\" value=\"pts\"> auto parts - by owner\n<option value=\"baa\">
+        baby+kids\n<option data-acat=\"baa\" value=\"bad\"> baby &amp; kid stuff -
+        by dealer\n<option data-acat=\"baa\" value=\"bab\"> baby &amp; kid stuff -
+        by owner\n<option value=\"bar\"> barter\n<option value=\"haa\"> beauty+hlth\n<option
+        data-acat=\"bia\" value=\"bid\"> bicycles - by dealer\n<option data-acat=\"bia\"
+        value=\"bik\"> bicycles - by owner\n<option value=\"bia\"> bikes\n<option
+        value=\"boo\"> boats\n<option data-acat=\"boo\" value=\"bod\"> boats - by
+        dealer\n<option data-acat=\"boo\" value=\"boa\"> boats - by owner\n<option
+        value=\"bka\"> books\n<option data-acat=\"bka\" value=\"bkd\"> books &amp;
+        magazines - by dealer\n<option data-acat=\"bka\" value=\"bks\"> books &amp;
+        magazines - by owner\n<option value=\"bfa\"> business\n<option data-acat=\"bfa\"
+        value=\"bfd\"> business/commercial - by dealer\n<option data-acat=\"bfa\"
+        value=\"bfs\"> business/commercial - by owner\n<option value=\"cta\"> cars+trucks\n<option
+        data-acat=\"cta\" value=\"ctd\"> cars &amp; trucks - by dealer\n<option data-acat=\"cta\"
+        value=\"cto\"> cars &amp; trucks - by owner\n<option data-acat=\"ema\" value=\"emq\">
+        cds / dvds / vhs - by dealer\n<option data-acat=\"ema\" value=\"emd\"> cds
+        / dvds / vhs - by owner\n<option value=\"ema\"> cds/dvd/vhs\n<option value=\"moa\">
+        cell phones\n<option data-acat=\"moa\" value=\"mod\"> cell phones - by dealer\n<option
+        data-acat=\"moa\" value=\"mob\"> cell phones - by owner\n<option value=\"cla\">
+        clothes+acc\n<option data-acat=\"cla\" value=\"cld\"> clothing &amp; accessories
+        - by deal\n<option data-acat=\"cla\" value=\"clo\"> clothing &amp; accessories
+        - by owne\n<option value=\"cba\"> collectibles\n<option data-acat=\"cba\"
+        value=\"cbd\"> collectibles - by dealer\n<option data-acat=\"cba\" value=\"clt\">
+        collectibles - by owner\n<option value=\"sya\"> computers\n<option data-acat=\"sya\"
+        value=\"syd\"> computers - by dealer\n<option data-acat=\"sya\" value=\"sys\">
+        computers - by owner\n<option value=\"ela\"> electronics\n<option data-acat=\"ela\"
+        value=\"eld\"> electronics - by dealer\n<option data-acat=\"ela\" value=\"ele\">
+        electronics - by owner\n<option value=\"gra\"> farm+garden\n<option data-acat=\"gra\"
+        value=\"grq\"> farm &amp; garden - by dealer\n<option data-acat=\"gra\" value=\"grd\">
+        farm &amp; garden - by owner\n<option data-acat=\"sss\" value=\"ssq\"> for
+        sale by dealer\n<option data-acat=\"sss\" value=\"sso\"> for sale by owner\n<option
+        value=\"zip\"> free stuff\n<option value=\"fua\"> furniture\n<option data-acat=\"fua\"
+        value=\"fud\"> furniture - by dealer\n<option data-acat=\"fua\" value=\"fuo\">
+        furniture - by owner\n<option value=\"gms\"> garage sales\n<option value=\"foa\">
+        general\n<option data-acat=\"foa\" value=\"fod\"> general for sale - by dealer\n<option
+        data-acat=\"foa\" value=\"for\"> general for sale - by owner\n<option data-acat=\"haa\"
+        value=\"had\"> health and beauty - by dealer\n<option data-acat=\"haa\" value=\"hab\">
+        health and beauty - by owner\n<option value=\"hva\"> heavy equipment\n<option
+        data-acat=\"hva\" value=\"hvd\"> heavy equipment - by dealer\n<option data-acat=\"hva\"
+        value=\"hvo\"> heavy equipment - by owner\n<option value=\"hsa\"> household\n<option
+        data-acat=\"hsa\" value=\"hsd\"> household items - by dealer\n<option data-acat=\"hsa\"
+        value=\"hsh\"> household items - by owner\n<option value=\"jwa\"> jewelry\n<option
+        data-acat=\"jwa\" value=\"jwd\"> jewelry - by dealer\n<option data-acat=\"jwa\"
+        value=\"jwl\"> jewelry - by owner\n<option value=\"maa\"> materials\n<option
+        data-acat=\"maa\" value=\"mad\"> materials - by dealer\n<option data-acat=\"maa\"
+        value=\"mat\"> materials - by owner\n<option value=\"mpa\"> motorcycle parts
+        &amp; acc\n<option data-acat=\"mpa\" value=\"mpd\"> motorcycle parts/acc -
+        by dealer\n<option data-acat=\"mpa\" value=\"mpo\"> motorcycle parts/acc -
+        by owner\n<option value=\"mca\"> motorcycles\n<option data-acat=\"mca\" value=\"mcd\">
+        motorcycles/scooters - by dealer\n<option data-acat=\"mca\" value=\"mcy\">
+        motorcycles/scooters - by owner\n<option data-acat=\"msa\" value=\"msd\">
+        musical instruments - by dealer\n<option data-acat=\"msa\" value=\"msg\">
+        musical instruments - by owner\n<option value=\"msa\"> music instr\n<option
+        value=\"pha\"> photo+video\n<option data-acat=\"pha\" value=\"phd\"> photo/video
+        - by dealer\n<option data-acat=\"pha\" value=\"pho\"> photo/video - by owner\n<option
+        value=\"rva\"> recreational vehicles\n<option data-acat=\"rva\" value=\"rvd\">
+        rvs - by dealer\n<option data-acat=\"rva\" value=\"rvs\"> rvs - by owner\n<option
+        value=\"sga\"> sporting\n<option data-acat=\"sga\" value=\"sgd\"> sporting
+        goods - by dealer\n<option data-acat=\"sga\" value=\"spo\"> sporting goods
+        - by owner\n<option value=\"tia\"> tickets\n<option data-acat=\"tia\" value=\"tid\">
+        tickets - by dealer\n<option data-acat=\"tia\" value=\"tix\"> tickets - by
+        owner\n<option value=\"tla\"> tools\n<option data-acat=\"tla\" value=\"tld\">
+        tools - by dealer\n<option data-acat=\"tla\" value=\"tls\"> tools - by owner\n<option
+        value=\"taa\"> toys+games\n<option data-acat=\"taa\" value=\"tad\"> toys &amp;
+        games - by dealer\n<option data-acat=\"taa\" value=\"tag\"> toys &amp; games
+        - by owner\n<option value=\"vga\"> video gaming\n<option data-acat=\"vga\"
+        value=\"vgd\"> video gaming - by dealer\n<option data-acat=\"vga\" value=\"vgm\">
+        video gaming - by owner\n<option value=\"waa\"> wanted\n<option data-acat=\"waa\"
+        value=\"wad\"> wanted - by dealer\n<option data-acat=\"waa\" value=\"wan\">
+        wanted - by owner\n<option disabled value=\"\">--\n\n                <option
+        value=\"ggg\">all gigs\n\n                <option value=\"hhh\">all housing\n\n
+        \               <option value=\"jjj\">all jobs\n\n                <option
+        value=\"ppp\">all personals\n\n                <option value=\"res\">all resume\n\n
+        \               <option value=\"bbb\">all services offered\n</select><span
+        class=\"posterpicker\"><a href=\"../sso\" data-cat=\"sso\">by owner</a><b>
+        | </b><a href=\"../ssq\" data-cat=\"ssq\">by dealer</a><b> | </b><b>both</b></span></legend>\n\t<div
+        id=\"searchtable\">\n\t\t<span class=\"searchgroup\">\n\t\t\t<input id=\"query\"
+        name=\"query\" size=\"24\" value=\"bed\" autocorrect=\"off\" autocapitalize=\"off\">\n\t\t\t<input
+        id=\"searchbtn\" type=\"submit\" value=\"search\">\n\t\t</span>\n\t\t<span
+        class=\"searchgroup\">\n\t\t\t<div id=\"searchchecks\">\n\t\t\t\t<input type=\"checkbox\"
+        name=\"useMap\" id=\"useMap\" style=\"display:none;\" value=\"1\">\n\t\t\t\t<input
+        id=\"zoomtoposting\" type=\"hidden\" name=\"zoomToPosting\" value=\"\">\n\t\t\t</div>\n\t\t</span>\n\n
+        \       <span class=\"searchgroup\">\n\tprice:\n\t<input name=\"minAsk\" class=\"min\"
+        size=\"5\" value=\"1\">\n\t<input name=\"maxAsk\" class=\"max\" size=\"5\"
+        value=\"100\">\n</span>\n\n\n\t\t\n\n\t\t\n\t\t<span class=\"searchgroup\">\n\t\t\t<label>\n\t\t\t\t<input
+        type=\"checkbox\" name=\"hasPic\" value=\"1\" ><span class=\"haspic\">pic</span>\n\t\t\t</label>\n\t\t\t<label>\n\t\t\t\t\t<input
+        type=\"checkbox\" name=\"srchType\" value=\"T\"\n\t\t\t\t\ttitle=\"search
+        only posting titles\">title\n\t\t\t</label>\n\t\t</span>\n\t</div>\n    </fieldset>\n</form>\n</blockquote>\n\n\n
+        \       <section class=\"body\">\n            <section class=\"tocTopStuff\">\n
+        \               \n                \n                \n\n                <div
+        class=\"sortby\"><b>sort: </b> <strong>most recent</strong><b> |</b> <a href=\"/search/?sort=rel&amp;catAbb=sss&amp;maxAsk=100&amp;minAsk=1&amp;query=bed\">best
+        match</a><b> |</b> <a href=\"/search/?sort=priceasc&amp;catAbb=sss&amp;maxAsk=100&amp;minAsk=1&amp;query=bed\">low
+        price</a><b> |</b> <a href=\"/search/?sort=pricedsc&amp;catAbb=sss&amp;maxAsk=100&amp;minAsk=1&amp;query=bed\">high
+        price</a></div>\n\n                <blockquote class=\"modebtns\">\n\t<button
+        id=\"listview\">list view</button>\n\t<button id=\"picview\">pic view</button>\n\t<button
+        id=\"gridview\">grid view</button>\n\t<button id=\"mapview\">map view</button>\n</blockquote>\n\n
+        \           </section>\n\n            <blockquote id=\"toc_rows\">\n\n            <div
+        class=\"resulttotal\">found <span>1137</span> postings</div>\n            <h4
+        class=\"ban resultshdr\">\n\n\t\t<span class=\"nplink first\" title=\"first
+        page\">\n\t\t\t\n\t\t\t\t|&lt;<span class=\"nplabel\">first</span>\n\t\t\t\n\t\t</span>\n\t\t<div
+        class=\"npcontrols\">\n\t\t\t<div class=\"npcontrolcenter\">\n\t\t\t\t<span
+        class=\"nplink prev\" title=\"previous page\">\n\t\t\t\t\t\n\t\t\t\t\t\t&lt;<span
+        class=\"nplabel\">prev</span>\n\t\t\t\t\t\n\t\t\t\t</span>\n\t\t\t\t<span
+        class=\"nplink next\" title=\"next page\">\n\t\t\t\t\t<a href='http://sacramento.craigslist.org/search/?s=100&catAbb=sss&amp;maxAsk=100&amp;minAsk=1&amp;query=bed'>\n\t\t\t\t\t\t<span
+        class=\"nplabel\">next</span>&gt;\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span
+        class=\"pagenum\">1 - 100</span>\n\t\t\t</div>\n\t\t</div>\n\t\n</h4>\n <p
+        class=\"row\" data-pid=\"4160309386\"> <a href=\"/bab/4160309386.html\" class=\"i\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/bab/4160309386.html\">2 car seats, feeding chair, diaper
+        champ, more kids items</a> </span> <span class=\"l2\"> <span class=\"price\">$5</span>
+        \ <span class=\"pnr\"> <small> (Calvine / franklin)</small> <span class=\"px\">
+        <span class=\"p\"> </span></span> </span>  <a class=\"gc\" href=\"/bab/\"
+        data-cat=\"bab\">baby &amp; kid stuff - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4160309241\"> <a href=\"/fuo/4160309241.html\" class=\"i\" data-id=\"0:00404_83CcJGamcH1\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4160309241.html\">California King Bed complete package
+        </a> </span> <span class=\"l2\"> <span class=\"price\">$1</span>  <span class=\"pnr\">
+        <small> (Folsom )</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6210796154082\" data-longitude=\"-121.317453280899\"
+        data-pid=\"4160237010\"> <a href=\"/fuo/4160237010.html\" class=\"i\" data-id=\"0:00o0o_2yHkYU5OoAJ\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4160237010.html\">House full of Furniture and Tons
+        of Kitchen Stuff Amazing Deal!</a> </span> <span class=\"l2\"> <span class=\"price\">$25</span>
+        \ <span class=\"pnr\"> <small> (Marconi / Fair Oaks Blvd)</small> <span class=\"px\">
+        <span class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4160237010\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4160294979\"> <a href=\"/bab/4160294979.html\"
+        class=\"i\" data-id=\"0:00J0J_g2w1ssTY7nc\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4160294979.html\">
+        ikea bed fisher price play stand </a> </span> <span class=\"l2\"> <span class=\"price\">$30</span>
+        \ <span class=\"pnr\"> <small> (So sac florin )</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/bab/\"
+        data-cat=\"bab\">baby &amp; kid stuff - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4160271725\"> <a href=\"/for/4160271725.html\" class=\"i\" data-id=\"0:00d0d_jYpNsQjTVGI\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/for/4160271725.html\">NEW UNIVERSAL BED FRAME</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$20</span>  <span class=\"pnr\">
+        <small> (SACRAMENTO)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/for/\" data-cat=\"for\">general - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4155534038\"> <a href=\"/bik/4155534038.html\"
+        class=\"i\" data-id=\"0:00707_abTiuEVO8DR\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bik/4155534038.html\">truck
+        bed 2-bike rack--Yakima Beddy Jo 2</a> </span> <span class=\"l2\"> <span class=\"price\">$25</span>
+        \ <span class=\"pnr\"> <small> (Auburn, Ca)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/bik/\" data-cat=\"bik\">bicycles
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4160269130\"> <a href=\"/ele/4160269130.html\"
+        class=\"i\" data-id=\"0:00Z0Z_2Z5dpzl8wjh\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/ele/4160269130.html\">CB
+        Radio Accessories</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>
+        \ <span class=\"pnr\"> <small> (Sacramento)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/ele/\" data-cat=\"ele\">electronics
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4160268552\"> <a href=\"/grd/4160268552.html\"
+        class=\"i\" data-id=\"0:00v0v_iXGRB5Kb6Hp\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/grd/4160268552.html\">Sky
+        Kennel Model #200 Dog Crate</a> </span> <span class=\"l2\"> <span class=\"price\">$30</span>
+        \ <span class=\"pnr\"> <small> (Sacramento)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/grd/\" data-cat=\"grd\">farm
+        &amp; garden - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4081112029695\"
+        data-longitude=\"-121.429409234062\" data-pid=\"4143610535\"> <a href=\"/hsh/4143610535.html\"
+        class=\"i\" data-id=\"0:00e0e_3lihFTJeDam\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/hsh/4143610535.html\">Kardashian
+        Kollection 4 Piece King Comforter Set</a> </span> <span class=\"l2\"> <span
+        class=\"price\">$100</span>  <span class=\"pnr\"> <small> (Elk Grove)</small>
+        <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\"
+        data-pid=\"4143610535\">map</a></span></span> </span>  <a class=\"gc\" href=\"/hsh/\"
+        data-cat=\"hsh\">household items - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4160251572\"> <a href=\"/pts/4160251572.html\" class=\"i\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/pts/4160251572.html\">Flat Utility Bed</a> </span> <span
+        class=\"l2\"> <span class=\"price\">$1</span>  <span class=\"pnr\"> <small>
+        (Dixon)</small> <span class=\"px\"> <span class=\"p\"> </span></span> </span>
+        \ <a class=\"gc\" href=\"/pts/\" data-cat=\"pts\">auto parts - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4160247002\"> <a href=\"/fuo/4160247002.html\"
+        class=\"i\" data-id=\"0:00s0s_bxniVzZtEYm\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4160247002.html\">IKEA
+        loft bed</a> </span> <span class=\"l2\"> <span class=\"price\">$100</span>
+        \ <span class=\"pnr\"> <small> (woodland)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4124535264\"> <a href=\"/fuo/4124535264.html\"
+        class=\"i\" data-id=\"0:00b0b_hzOYbTjli4B\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4124535264.html\">Full
+        Size Bunk Bed Complete Package</a> </span> <span class=\"l2\"> <span class=\"price\">$10</span>
+        \ <span class=\"pnr\"> <small> (Lodi)</small> <span class=\"px\"> <span class=\"p\">
+        pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.405590188671\"
+        data-longitude=\"-121.410272443706\" data-pid=\"4160238831\"> <a href=\"/bab/4160238831.html\"
+        class=\"i\" data-id=\"0:00S0S_geUOe7161kx\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4160238831.html\">Activity
+        Mat/Travel bed</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4160238831\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4147352770\"> <a href=\"/rvs/4147352770.html\"
+        class=\"i\" data-id=\"0:00s0s_eelXeh9nc3g\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/rvs/4147352770.html\">Brand
+        new Travel Trailer for rent</a> </span> <span class=\"l2\"> <span class=\"price\">$99</span>
+        \ <span class=\"pnr\"> <small> (Lincoln/Rocklin/Roseville)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/rvs/\"
+        data-cat=\"rvs\">rvs - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4160235847\">
+        <a href=\"/fuo/4160235847.html\" class=\"i\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4160235847.html\">Twin
+        Size Bed w/Mattress and Boxspring</a> </span> <span class=\"l2\"> <span class=\"price\">$50</span>
+        \ <span class=\"pnr\"> <small> (orangevale)</small> <span class=\"px\"> <span
+        class=\"p\"> </span></span> </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4160199163\"> <a href=\"/ele/4160199163.html\"
+        class=\"i\"></a> <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/ele/4160199163.html\">moving sale</a> </span> <span
+        class=\"l2\"> <span class=\"price\">$25</span>  <span class=\"pnr\"> <small>
+        (Sacramento )</small> <span class=\"px\"> <span class=\"p\"> </span></span>
+        </span>  <a class=\"gc\" href=\"/ele/\" data-cat=\"ele\">electronics - by
+        owner</a> </span> </p> <p class=\"row\" data-pid=\"4134295260\"> <a href=\"/fuo/4134295260.html\"
+        class=\"i\" data-id=\"0:00K0K_bL9PWxBU5Nw\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4134295260.html\">__________
+        Bedroom Storage Hope Chest ___________</a> </span> <span class=\"l2\"> <span
+        class=\"price\">$50</span>  <span class=\"pnr\"> <small> (roseville)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4138202661\"> <a href=\"/bab/4138202661.html\" class=\"i\" data-id=\"0:00T0T_4Uf7BrWnF3H\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/bab/4138202661.html\">kids Doll cradle - bed - storage
+        HTF</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>  <span
+        class=\"pnr\"> <small> (Lincoln)</small> <span class=\"px\"> <span class=\"p\">
+        pic</span></span> </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby
+        &amp; kid stuff - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4160168227\">
+        <a href=\"/fuo/4160168227.html\" class=\"i\" data-id=\"0:00K0K_263Sycl1rBr\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4160168227.html\">New Ikea twin loft bunk bed</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$100</span>  <span class=\"pnr\">
+        <small> (dixon)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4120370241\"> <a href=\"/fuo/4120370241.html\"
+        class=\"i\" data-id=\"0:00X0X_hCRsK5y2S26\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4120370241.html\">Vintage
+        Bed </a> </span> <span class=\"l2\"> <span class=\"price\">$40</span>  <span
+        class=\"pnr\"> <small> (Roseville)</small> <span class=\"px\"> <span class=\"p\">
+        pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4160096916\"> <a href=\"/pts/4160096916.html\"
+        class=\"i\" data-id=\"0:00000_erwC2bm2nnm\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/pts/4160096916.html\">91
+        Chevy C1500 Parts</a> </span> <span class=\"l2\"> <span class=\"price\">$1</span>
+        \ <span class=\"pnr\"> <small> (Citrus Heights)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/pts/\"
+        data-cat=\"pts\">auto parts - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4124656822122\"
+        data-longitude=\"-121.366899538617\" data-pid=\"4153959797\"> <a href=\"/bab/4153959797.html\"
+        class=\"i\" data-id=\"0:00a0a_7E0vfmYBDAi\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4153959797.html\">Chicco
+        Baby Carrier</a> </span> <span class=\"l2\"> <span class=\"price\">$15</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4153959797\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4231799929806\"
+        data-longitude=\"-121.359909453516\" data-pid=\"4153952562\"> <a href=\"/bab/4153952562.html\"
+        class=\"i\" data-id=\"0:00G0G_h1LcxRZ7KP4\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4153952562.html\">Toddler
+        Bed Guard Rail</a> </span> <span class=\"l2\"> <span class=\"price\">$15</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4153952562\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4120646117557\"
+        data-longitude=\"-121.366899538617\" data-pid=\"4154790949\"> <a href=\"/bab/4154790949.html\"
+        class=\"i\" data-id=\"0:00X0X_gbZ0PTWvvbH\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4154790949.html\">Chicco
+        Cortina Stroller (Keyfit) </a> </span> <span class=\"l2\"> <span class=\"price\">$80</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4154790949\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4131588903\"> <a href=\"/pts/4131588903.html\"
+        class=\"i\"></a> <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/pts/4131588903.html\">Tonneau Cover</a> </span> <span
+        class=\"l2\"> <span class=\"price\">$1</span>  <span class=\"pnr\"> <small>
+        (Cameron Park)</small> <span class=\"px\"> <span class=\"p\"> </span></span>
+        </span>  <a class=\"gc\" href=\"/pts/\" data-cat=\"pts\">auto parts - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.4123510906532\" data-longitude=\"-121.366956834396\"
+        data-pid=\"4154801144\"> <a href=\"/bab/4154801144.html\" class=\"i\" data-id=\"0:00i0i_bVAcMdNkVF4\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/bab/4154801144.html\">Graco Pack n Play</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$80</span>  <span class=\"pnr\">
+        <small> (Elk Grove)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4154801144\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4122364990942\"
+        data-longitude=\"-121.367071425955\" data-pid=\"4154808465\"> <a href=\"/bab/4154808465.html\"
+        class=\"i\" data-id=\"0:00404_4Y1Xys3OdiC\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4154808465.html\">Munchkin
+        Deluxe Bottle &amp; Food Warmer</a> </span> <span class=\"l2\"> <span class=\"price\">$15</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4154808465\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4119500201966\"
+        data-longitude=\"-121.366842242837\" data-pid=\"4154825590\"> <a href=\"/bab/4154825590.html\"
+        class=\"i\" data-id=\"0:00d0d_hfgSr3hxkeZ\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4154825590.html\">Munchkin
+        Arm &amp; Hammer 3-in-1 Potty Seat</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4154825590\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4118927244171\"
+        data-longitude=\"-121.366670355498\" data-pid=\"4154833789\"> <a href=\"/bab/4154833789.html\"
+        class=\"i\" data-id=\"0:00J0J_9Nnr9vHsod\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4154833789.html\">Fisher
+        Price Rainforest High Chair</a> </span> <span class=\"l2\"> <span class=\"price\">$45</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4154833789\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4119500201966\"
+        data-longitude=\"-121.366727651278\" data-pid=\"4154840615\"> <a href=\"/bab/4154840615.html\"
+        class=\"i\" data-id=\"0:00909_8AwcXwKCKMy\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4154840615.html\">Glider
+        / Rocking Chair</a> </span> <span class=\"l2\"> <span class=\"price\">$50</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4154840615\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4118927244171\"
+        data-longitude=\"-121.366784947058\" data-pid=\"4154847981\"> <a href=\"/bab/4154847981.html\"
+        class=\"i\" data-id=\"0:00k0k_gTdDUPzT3Lk\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4154847981.html\">Safety
+        1st Tubside Bath Seat</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4154847981\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4120073159762\"
+        data-longitude=\"-121.366899538617\" data-pid=\"4155385659\"> <a href=\"/bab/4155385659.html\"
+        class=\"i\" data-id=\"0:01111_85BxBStZ7h\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4155385659.html\">Fisher
+        Price Space Saving High Chair</a> </span> <span class=\"l2\"> <span class=\"price\">$25</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4155385659\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.4120646117557\"
+        data-longitude=\"-121.366842242837\" data-pid=\"4155397164\"> <a href=\"/bab/4155397164.html\"
+        class=\"i\" data-id=\"0:00l0l_i3s96bxI8mO\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4155397164.html\">Step
+        2 Firetruck Toddler Bed</a> </span> <span class=\"l2\"> <span class=\"price\">$75</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4155397164\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4160090694\"> <a href=\"/bab/4160090694.html\"
+        class=\"i\" data-id=\"0:01515_8n0I2BEsZ6H\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/bab/4160090694.html\">Crib</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$100</span>  <span class=\"pnr\">
+        <small> (Rio Linda)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4130033895\"> <a href=\"/hsh/4130033895.html\"
+        class=\"i\" data-id=\"0:00T0T_czFKk0R4HrM\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/hsh/4130033895.html\">Intex
+        Supreme Air-Flow Queen Airbed with Built-in Electric Pump---NEW!</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$75</span>  <span class=\"pnr\">
+        <small> (elk grove)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/hsh/\" data-cat=\"hsh\">household items -
+        by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.6284134751854\"
+        data-longitude=\"-121.328683253683\" data-pid=\"4155320493\"> <a href=\"/fuo/4155320493.html\"
+        class=\"i\" data-id=\"0:00808_lmT414zyzck\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4155320493.html\">Heavy
+        duty locker style twin bed</a> </span> <span class=\"l2\"> <span class=\"price\">$60</span>
+        \ <span class=\"pnr\"> <small> (Carmichael )</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4155320493\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4160068654\"> <a href=\"/fuo/4160068654.html\"
+        class=\"i\" data-id=\"0:00D0D_iynzBUcTEZi\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4160068654.html\">black
+        queen sleigh bed</a> </span> <span class=\"l2\"> <span class=\"price\">$100</span>
+        \ <span class=\"pnr\">  <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4160055201\"> <a href=\"/fuo/4160055201.html\"
+        class=\"i\"></a> <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4160055201.html\">Day bed - girls</a> </span> <span
+        class=\"l2\"> <span class=\"price\">$50</span>  <span class=\"pnr\"> <small>
+        (S. Sacramento)</small> <span class=\"px\"> <span class=\"p\"> </span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4151250822\"> <a href=\"/fuo/4151250822.html\"
+        class=\"i\" data-id=\"0:00L0L_9TQvY47Kstr\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4151250822.html\">metal
+        full size bed frame</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>
+        \ <span class=\"pnr\">  <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4147998782\"> <a href=\"/bad/4147998782.html\"
+        class=\"i\"></a> <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/bad/4147998782.html\">!  BABY TREND - FLEX LOC BABY
+        CAR SEAT BASE, BLACK</a> </span> <span class=\"l2\"> <span class=\"price\">$25</span>
+        \ <span class=\"pnr\"> <small> (sacramento)</small> <span class=\"px\"> <span
+        class=\"p\"> </span></span> </span>  <a class=\"gc\" href=\"/bad/\" data-cat=\"bad\">baby
+        &amp; kid stuff - by dealer</a> </span> </p> <p class=\"row\" data-pid=\"4160035208\">
+        <a href=\"/fuo/4160035208.html\" class=\"i\" data-id=\"0:00j0j_jwZidAXbXW4\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4160035208.html\">bunk bed</a> </span> <span class=\"l2\">
+        <span class=\"price\">$40</span>  <span class=\"pnr\"> <small> (natomas )</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4160022668\"> <a href=\"/pts/4160022668.html\" class=\"i\" data-id=\"0:00G0G_f8JbumyCxWi\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/pts/4160022668.html\">94-01 dodge ram complete bed/fenders</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$1</span>  <span class=\"pnr\">
+        <small> (Roseville)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/pts/\" data-cat=\"pts\">auto parts - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.2691116418782\" data-longitude=\"-121.299978068149\"
+        data-pid=\"4126161274\"> <a href=\"/cto/4126161274.html\" class=\"i\" data-id=\"0:01212_lNjWtMkFmAW\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/cto/4126161274.html\">CHEVY LS SIlVEROTO 2002 1500 shortbed</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$10</span>  <span class=\"pnr\">
+        <small> (galt)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4126161274\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/cto/\" data-cat=\"cto\">cars &amp; trucks
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4146001083\"> <a href=\"/fuo/4146001083.html\"
+        class=\"i\" data-id=\"0:01717_6VeXnRfvcsB\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4146001083.html\">Bed/
+        twin wood frame with mattress</a> </span> <span class=\"l2\"> <span class=\"price\">$60</span>
+        \ <span class=\"pnr\"> <small> (near Jackson Ca.)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\"
+        data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4160001311\">
+        <a href=\"/fuo/4160001311.html\" class=\"i\" data-id=\"0:00I0I_22fWRaWfBiS\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4160001311.html\">Coaster Black Wood Leather Headboard</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$40</span>  <span class=\"pnr\">
+        <small> (sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6952203540941\" data-longitude=\"-121.307483815265\"
+        data-pid=\"4147265397\"> <a href=\"/tls/4147265397.html\" class=\"i\" data-id=\"0:01111_aZgUPTtTiTJ\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/tls/4147265397.html\">95 - 99 Toyota Tacoma Bed Liner</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$95</span>  <span class=\"pnr\">
+        <small> (Citrus Heights)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4147265397\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/tls/\" data-cat=\"tls\">tools - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4155419141\"> <a href=\"/hsh/4155419141.html\"
+        class=\"i\" data-id=\"0:00V0V_dlTFZmFbAnL\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/hsh/4155419141.html\">Handmade
+        Quilt / Bead Spread- king sized</a> </span> <span class=\"l2\"> <span class=\"price\">$45</span>
+        \ <span class=\"pnr\"> <small> (pocket sacramento)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/hsh/\"
+        data-cat=\"hsh\">household items - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4159934835\"> <a href=\"/fuo/4159934835.html\" class=\"i\" data-id=\"0:00707_7pqx4Y3RoTV\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159934835.html\">Moving Out Furniture SALE and
+        free stuff</a> </span> <span class=\"l2\"> <span class=\"price\">$1</span>
+        \ <span class=\"pnr\"> <small> (north natomas)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\"
+        data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4106425793\">
+        <a href=\"/clo/4106425793.html\" class=\"i\" data-id=\"0:00e0e_lFToS6B4QGT\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/clo/4106425793.html\">Brand NEW queen bed set</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$30</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/clo/\" data-cat=\"clo\">clothing &amp; accessories
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4104129191\"> <a href=\"/pts/4104129191.html\"
+        class=\"i\" data-id=\"0:00I0I_hIjuUlQEtE3\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/pts/4104129191.html\">Ford
+        Ranger 2011 Bed</a> </span> <span class=\"l2\"> <span class=\"price\">$50</span>
+        \ <span class=\"pnr\"> <small> (South Sacramento)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/pts/\"
+        data-cat=\"pts\">auto parts - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4137512650\">
+        <a href=\"/fuo/4137512650.html\" class=\"i\" data-id=\"0:00c0c_lNRihZtbZI4\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4137512650.html\">BUNK BED</a> </span> <span class=\"l2\">
+        <span class=\"price\">$100</span>  <span class=\"pnr\"> <small> (North Highlands)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4159871215\"> <a href=\"/for/4159871215.html\" class=\"i\" data-id=\"0:00W0W_cAA3SKWeRMO\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/for/4159871215.html\">Reading Bed Pillow Red, Like New</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$5</span>  <span class=\"pnr\">
+        <small> (Rancho Cordova)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/for/\" data-cat=\"for\">general - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4144034677\"> <a href=\"/for/4144034677.html\"
+        class=\"i\"></a> <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/for/4144034677.html\">Down sizing best offer takes item
+        many items for sale</a> </span> <span class=\"l2\"> <span class=\"price\">$1</span>
+        \ <span class=\"pnr\"> <small> (Rancho Cordova )</small> <span class=\"px\">
+        <span class=\"p\"> </span></span> </span>  <a class=\"gc\" href=\"/for/\"
+        data-cat=\"for\">general - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4155384900\">
+        <a href=\"/bar/4155384900.html\" class=\"i\" data-id=\"0:00r0r_4aFHp1aTows\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/bar/4155384900.html\">too many things to barter or sell
+        make an offer</a> </span> <span class=\"l2\"> <span class=\"price\">$1</span>
+        \ <span class=\"pnr\"> <small> (Rancho Cordova)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/bar/\"
+        data-cat=\"bar\">barter</a> </span> </p> <p class=\"row\" data-pid=\"4159859277\">
+        <a href=\"/bab/4159859277.html\" class=\"i\" data-id=\"0:00000_gPOSKxspAcG\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/bab/4159859277.html\">Co-Sleeper by Arm's Reach</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$100</span>  <span class=\"pnr\">
+        <small> (Foothills)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.7159041304972\"
+        data-longitude=\"-121.364779594775\" data-pid=\"4117639571\"> <a href=\"/tag/4117639571.html\"
+        class=\"i\" data-id=\"0:01414_i6sxPpB0GJu\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/tag/4117639571.html\">Doll
+        Bunk Bed (Bunkbeds, Bunkbed)  - Great for American Girl Dolls</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$30</span>  <span class=\"pnr\">
+        <small> (Antelope)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4117639571\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/tag/\" data-cat=\"tag\">toys &amp; games
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159833004\"> <a href=\"/sys/4159833004.html\"
+        class=\"i\" data-id=\"0:00a0a_44rDD4tWTIn\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/sys/4159833004.html\">Canon
+        flat bed scanner</a> </span> <span class=\"l2\"> <span class=\"price\">$2</span>
+        \ <span class=\"pnr\"> <small> (Natomas Park)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/sys/\"
+        data-cat=\"sys\">computers - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4123680454\">
+        <a href=\"/hsh/4123680454.html\" class=\"i\" data-id=\"0:00C0C_f225mTus08P\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/hsh/4123680454.html\">BRAND NEW Pure Latex BLISS High
+        Profile QUEEN Pillow</a> </span> <span class=\"l2\"> <span class=\"price\">$69</span>
+        \ <span class=\"pnr\"> <small> (Elk Grove)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/hsh/\" data-cat=\"hsh\">household
+        items - by owner</a> </span> </p> <p class=\"row\" data-latitude=\"38.6693799575351\"
+        data-longitude=\"-121.161551464853\" data-pid=\"4124010462\"> <a href=\"/fuo/4124010462.html\"
+        class=\"i\"></a> <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4124010462.html\">Maple King Head Board &amp; Metal
+        Frame</a> </span> <span class=\"l2\"> <span class=\"price\">$70</span>  <span
+        class=\"pnr\"> <small> (Folsom)</small> <span class=\"px\"> <span class=\"p\">
+        <a href=\"#\" class=\"maptag\" data-pid=\"4124010462\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6693799575351\" data-longitude=\"-121.161551464853\"
+        data-pid=\"4124245389\"> <a href=\"/fuo/4124245389.html\" class=\"i\" data-id=\"0:00w0w_1irp0SEBjnn\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4124245389.html\">King Size Wooden Head Board &amp;
+        Frames</a> </span> <span class=\"l2\"> <span class=\"price\">$70</span>  <span
+        class=\"pnr\"> <small> (Folsom)</small> <span class=\"px\"> <span class=\"p\">
+        pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4124245389\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4159821009\"> <a href=\"/fuo/4159821009.html\"
+        class=\"i\" data-id=\"0:00g0g_1MLGCpppPC6\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4159821009.html\">Single
+        Futon Frame and Mattress for Bed or Chair</a> </span> <span class=\"l2\">
+        <span class=\"price\">$65</span>  <span class=\"pnr\"> <small> (Davis )</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4159796786\"> <a href=\"/fuo/4159796786.html\" class=\"i\" data-id=\"0:00b0b_3pdlhM491d6\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159796786.html\">BEAUTIFUL ASSORTED FURNITURE,
+        SOME ANTIQUE, (PHOTOS) MUST SELL! LOOK!</a> </span> <span class=\"l2\"> <span
+        class=\"price\">$1</span>  <span class=\"pnr\"> <small> (citrus heights)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4159800252\"> <a href=\"/fuo/4159800252.html\" class=\"i\" data-id=\"0:00b0b_3pdlhM491d6\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159800252.html\">BEAUTIFUL ASSORTED FURNITURE,
+        SOME ANTIQUE, (PHOTOS) MUST SELL! LOOK!</a> </span> <span class=\"l2\"> <span
+        class=\"price\">$1</span>  <span class=\"pnr\"> <small> (citrus heights)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4145977653\"> <a href=\"/bab/4145977653.html\" class=\"i\" data-id=\"0:00t0t_3YHqWkvFPnD\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/bab/4145977653.html\">doll bunk bed</a> </span> <span
+        class=\"l2\"> <span class=\"price\">$40</span>  <span class=\"pnr\"> <small>
+        (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4137876097\"> <a href=\"/cto/4137876097.html\"
+        class=\"i\" data-id=\"0:00K0K_ax02X7xMXYK\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/cto/4137876097.html\">1971
+        Chevy Truck C10 StepSide**Customized**</a> </span> <span class=\"l2\"> <span
+        class=\"price\">$15</span>  <span class=\"pnr\"> <small> (Antioch)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/cto/\" data-cat=\"cto\">cars &amp; trucks - by owner</a> </span> </p>
+        <p class=\"row\" data-pid=\"4153736743\"> <a href=\"/fuo/4153736743.html\"
+        class=\"i\" data-id=\"0:00a0a_2ScjWlQNbW8\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4153736743.html\">Queen
+        boxspring</a> </span> <span class=\"l2\"> <span class=\"price\">$45</span>
+        \ <span class=\"pnr\"> <small> (sacramento(elk grove))</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\"
+        data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159810456\">
+        <a href=\"/for/4159810456.html\" class=\"i\" data-id=\"0:00t0t_3YHqWkvFPnD\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/for/4159810456.html\">18 inch doll bunk bed</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$40</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/for/\" data-cat=\"for\">general - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4159798964\"> <a href=\"/atq/4159798964.html\"
+        class=\"i\" data-id=\"0:00b0b_3pdlhM491d6\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/atq/4159798964.html\">ANTIQUE
+        DRESSER / HOPE CHEST / MIRROR / TABLE - Look!</a> </span> <span class=\"l2\">
+        <span class=\"price\">$100</span>  <span class=\"pnr\"> <small> (sacramento)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/atq/\" data-cat=\"atq\">antiques - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4159774350\"> <a href=\"/fuo/4159774350.html\" class=\"i\" data-id=\"0:00b0b_3pdlhM491d6\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159774350.html\">BEAUTIFUL ASSORTED FURNITURE,
+        SOME ANTIQUE, (PHOTOS) MUST SELL! LOOK!</a> </span> <span class=\"l2\"> <span
+        class=\"price\">$1</span>  <span class=\"pnr\"> <small> (citrus heights)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4159773033\"> <a href=\"/atq/4159773033.html\" class=\"i\" data-id=\"0:00b0b_3pdlhM491d6\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/atq/4159773033.html\">ANTIQUE DRESSER / HOPE CHEST /
+        MIRROR / TABLE - Look!</a> </span> <span class=\"l2\"> <span class=\"price\">$100</span>
+        \ <span class=\"pnr\"> <small> (sacramento)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/atq/\" data-cat=\"atq\">antiques
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159780406\"> <a href=\"/fuo/4159780406.html\"
+        class=\"i\" data-id=\"0:00A0A_j7AX5p1BYPf\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4159780406.html\">CHERRY
+        WOOD MIRROR MOUNTS TO DRESSER</a> </span> <span class=\"l2\"> <span class=\"price\">$1</span>
+        \ <span class=\"pnr\"> <small> (Fair Oaks)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159733397\"> <a href=\"/hsh/4159733397.html\"
+        class=\"i\" data-id=\"0:00b0b_3pdlhM491d6\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/hsh/4159733397.html\">BEAUTIFUL
+        ASSORTED FURNITURE, SOME ANTIQUE, (PHOTOS) MUST SELL! LOOK!</a> </span> <span
+        class=\"l2\"> <span class=\"price\">$80</span>  <span class=\"pnr\"> <small>
+        (citrus heights)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/hsh/\" data-cat=\"hsh\">household items -
+        by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159730613\"> <a href=\"/fuo/4159730613.html\"
+        class=\"i\" data-id=\"0:00808_bIkvH5IWcK5\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4159730613.html\">BEAUTIFUL
+        ASSORTED FURNITURE, SOME ANTIQUE, (PHOTOS) MUST SELL! LOOK!</a> </span> <span
+        class=\"l2\"> <span class=\"price\">$30</span>  <span class=\"pnr\"> <small>
+        (Citrus Heights)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.5661902586376\" data-longitude=\"-121.328625957904\"
+        data-pid=\"4101255235\"> <a href=\"/fuo/4101255235.html\" class=\"i\" data-id=\"0:00V0V_2T0G7LbltTA\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4101255235.html\">Queen size metal frame excellent
+        condition</a> </span> <span class=\"l2\"> <span class=\"price\">$50</span>
+        \ <span class=\"pnr\"> <small> (Rosemont)</small> <span class=\"px\"> <span
+        class=\"p\"> pic&nbsp;<a href=\"#\" class=\"maptag\" data-pid=\"4101255235\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4159711862\"> <a href=\"/fuo/4159711862.html\"
+        class=\"i\" data-id=\"0:00z0z_hNIc7yOgKfJ\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4159711862.html\">bedroom
+        furniture</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>
+        \ <span class=\"pnr\"> <small> (tahoe park)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159728923\"> <a href=\"/pts/4159728923.html\"
+        class=\"i\" data-id=\"0:00R0R_2CSrnxO48WG\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/pts/4159728923.html\">chevy/gmc
+        drive shaft</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>
+        \ <span class=\"pnr\"> <small> (sacramento, ca)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/pts/\"
+        data-cat=\"pts\">auto parts - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159719110\">
+        <a href=\"/hab/4159719110.html\" class=\"i\" data-id=\"0:00P0P_9zO7GMQucBV\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/hab/4159719110.html\">Convoluted Bed Pad, Blue, 33 Inch
+        x 72 Inch x 3 Inch </a> </span> <span class=\"l2\"> <span class=\"price\">$40</span>
+        \ <span class=\"pnr\"> <small> (Sacramento, CA)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/hab/\"
+        data-cat=\"hab\">health and beauty - by owner</a> </span> </p> <p class=\"row\"
+        data-latitude=\"38.6276113342723\" data-longitude=\"-121.521827326412\" data-pid=\"4159710641\">
+        <a href=\"/fuo/4159710641.html\" class=\"i\" data-id=\"0:00D0D_gy7WGHVDakP\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159710641.html\">King Size Wicker Headboard</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$55</span>  <span class=\"pnr\">
+        <small> (Natomas)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4159710641\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6274394469338\" data-longitude=\"-121.521655439073\"
+        data-pid=\"4159705795\"> <a href=\"/fuo/4159705795.html\" class=\"i\" data-id=\"0:01212_7CBaDKC9qeZ\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159705795.html\">Cream Color Wicker Headboard</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$55</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4159705795\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6383256450407\" data-longitude=\"-121.507216902637\"
+        data-pid=\"4145985755\"> <a href=\"/fuo/4145985755.html\" class=\"i\" data-id=\"0:00R0R_bgsZUYw5cDz\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4145985755.html\">Twin Headboard - Tan Wicker</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$20</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4145985755\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6277259258313\" data-longitude=\"-121.522171101089\"
+        data-pid=\"4145953961\"> <a href=\"/fuo/4145953961.html\" class=\"i\" data-id=\"0:00e0e_4LMUZbkrdms\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4145953961.html\">King Size Wicker Headboard</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$85</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4145953961\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6277259258313\" data-longitude=\"-121.522285692648\"
+        data-pid=\"4145952976\"> <a href=\"/fuo/4145952976.html\" class=\"i\" data-id=\"0:00303_cd2ekjMLsY0\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4145952976.html\">Twin Headboard - White Wicker</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$20</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4145952976\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6276113342723\" data-longitude=\"-121.522228396868\"
+        data-pid=\"4145448234\"> <a href=\"/fuo/4145448234.html\" class=\"i\" data-id=\"0:00G0G_6lBgwpuKaxr\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4145448234.html\">King Headboard - White Wicker</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$55</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4145448234\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6277259258313\" data-longitude=\"-121.521827326412\"
+        data-pid=\"4145447113\"> <a href=\"/fuo/4145447113.html\" class=\"i\" data-id=\"0:00t0t_d0l5q7fQdi7\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4145447113.html\">Twin Headboard - Tan</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$20</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4145447113\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6277259258313\" data-longitude=\"-121.522171101089\"
+        data-pid=\"4145444376\"> <a href=\"/fuo/4145444376.html\" class=\"i\" data-id=\"0:00e0e_4LMUZbkrdms\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4145444376.html\">King Size Wicker Headboard</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$85</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4145444376\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.5661902586376\" data-longitude=\"-121.328625957904\"
+        data-pid=\"4143879268\"> <a href=\"/fuo/4143879268.html\" class=\"i\" data-id=\"0:00H0H_fnczqEMaK2a\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4143879268.html\"> white twin size bed with mattress</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$100</span>  <span class=\"pnr\">
+        <small> (sacramento ca)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4143879268\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.6277259258313\" data-longitude=\"-121.522171101089\"
+        data-pid=\"4159691707\"> <a href=\"/fuo/4159691707.html\" class=\"i\" data-id=\"0:00o0o_haCd6V36NYi\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159691707.html\">King Headboard - Bamboo</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$55</span>  <span class=\"pnr\">
+        <small> (Sacramento)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4159691707\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4159690010\"> <a href=\"/fuo/4159690010.html\"
+        class=\"i\" data-id=\"0:00O0O_hLQdvhjVCU5\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4159690010.html\">KING
+        HEADBOARD / PIER WALL / STORAGE</a> </span> <span class=\"l2\"> <span class=\"price\">$100</span>
+        \ <span class=\"pnr\"> <small> (Roseville)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159685772\"> <a href=\"/fuo/4159685772.html\"
+        class=\"i\" data-id=\"0:00z0z_ewvhQJAj4Ud\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4159685772.html\">FUTON
+        COUCH/BED AND MATCHING ENTERTAINMENT CENTER</a> </span> <span class=\"l2\">
+        <span class=\"price\">$80</span>  <span class=\"pnr\"> <small> (Citrus Heights)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4129675610\"> <a href=\"/fuo/4129675610.html\" class=\"i\" data-id=\"0:00W0W_4ErjmE5u9lE\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4129675610.html\">Queen Size Metal bed frame! has
+        center support and wheels! can deliver</a> </span> <span class=\"l2\"> <span
+        class=\"price\">$45</span>  <span class=\"pnr\"> <small> (north sacramento)</small>
+        <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\"
+        href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\"
+        data-pid=\"4159661564\"> <a href=\"/pts/4159661564.html\" class=\"i\" data-id=\"0:00o0o_dFYO6SsMvVf\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/pts/4159661564.html\">5TH WHEEL 1979 CHEVY GMC 8FT DUALLY
+        LONG BED  </a> </span> <span class=\"l2\"> <span class=\"price\">$99</span>
+        \ <span class=\"pnr\"> <small> (ALTA CA 95701)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/pts/\"
+        data-cat=\"pts\">auto parts - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159652229\">
+        <a href=\"/fuo/4159652229.html\" class=\"i\" data-id=\"0:00101_llqPn6SvCa8\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159652229.html\">Twin Poster Pine Bed Frame</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$100</span>  <span class=\"pnr\">
+        <small> (Roseville)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-latitude=\"38.7608813174126\" data-longitude=\"-121.286685447303\"
+        data-pid=\"4159642069\"> <a href=\"/bab/4159642069.html\" class=\"i\" data-id=\"0:00Y0Y_knsxsYjVjOc\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/bab/4159642069.html\">IKEA Twin Bed &amp; Matress</a>
+        </span> <span class=\"l2\"> <span class=\"price\">$100</span>  <span class=\"pnr\">
+        <small> (Roseville)</small> <span class=\"px\"> <span class=\"p\"> pic&nbsp;<a
+        href=\"#\" class=\"maptag\" data-pid=\"4159642069\">map</a></span></span>
+        </span>  <a class=\"gc\" href=\"/bab/\" data-cat=\"bab\">baby &amp; kid stuff
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159626221\"> <a href=\"/fuo/4159626221.html\"
+        class=\"i\" data-id=\"0:00D0D_fNIzq2119YR\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4159626221.html\">Antique
+        Rod Iron Bedroom Set</a> </span> <span class=\"l2\"> <span class=\"price\">$75</span>
+        \ <span class=\"pnr\"> <small> (Folsom)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4131708408\"> <a href=\"/fuo/4131708408.html\"
+        class=\"i\" data-id=\"0:00S0S_iBpJRGZESQe\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/fuo/4131708408.html\">Twin
+        Bed w/ Box spring</a> </span> <span class=\"l2\"> <span class=\"price\">$30</span>
+        \ <span class=\"pnr\"> <small> (south sacramento)</small> <span class=\"px\">
+        <span class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/fuo/\"
+        data-cat=\"fuo\">furniture - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4128100824\">
+        <a href=\"/pts/4128100824.html\" class=\"i\" data-id=\"0:00V0V_4dH2dJxykYZ\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/pts/4128100824.html\">Honda Performance Civic Accord
+        Insight Ceramic Front brake pads</a> </span> <span class=\"l2\"> <span class=\"price\">$20</span>
+        \ <span class=\"pnr\"> <small> (Antelope)</small> <span class=\"px\"> <span
+        class=\"p\"> pic</span></span> </span>  <a class=\"gc\" href=\"/pts/\" data-cat=\"pts\">auto
+        parts - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159592525\">
+        <a href=\"/fuo/4159592525.html\" class=\"i\" data-id=\"0:00n0n_2jnS00MUSJC\"></a>
+        <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/fuo/4159592525.html\">Queen/Full Bed Frame</a> </span>
+        <span class=\"l2\"> <span class=\"price\">$85</span>  <span class=\"pnr\">
+        <small> (Land Park)</small> <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/fuo/\" data-cat=\"fuo\">furniture - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4159566280\"> <a href=\"/hab/4159566280.html\"
+        class=\"i\"></a> <span class=\"pl\"> <span class=\"star\"></span> <span class=\"date\">Oct
+        29</span>  <a href=\"/hab/4159566280.html\">Hospital Bed</a> </span> <span
+        class=\"l2\"> <span class=\"price\">$75</span>  <span class=\"pnr\"> <small>
+        (roseville)</small> <span class=\"px\"> <span class=\"p\"> </span></span>
+        </span>  <a class=\"gc\" href=\"/hab/\" data-cat=\"hab\">health and beauty
+        - by owner</a> </span> </p> <p class=\"row\" data-pid=\"4159544261\"> <a href=\"/pts/4159544261.html\"
+        class=\"i\" data-id=\"0:00D0D_jHJWZIjk0DN\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/pts/4159544261.html\">Sofa
+        bed</a> </span> <span class=\"l2\"> <span class=\"price\">$100</span>  <span
+        class=\"pnr\">  <span class=\"px\"> <span class=\"p\"> pic</span></span> </span>
+        \ <a class=\"gc\" href=\"/pts/\" data-cat=\"pts\">auto parts - by owner</a>
+        </span> </p> <p class=\"row\" data-pid=\"4159543348\"> <a href=\"/pts/4159543348.html\"
+        class=\"i\" data-id=\"0:00z0z_jgzqpFDfxR4\"></a> <span class=\"pl\"> <span
+        class=\"star\"></span> <span class=\"date\">Oct 29</span>  <a href=\"/pts/4159543348.html\">PLASTIC
+        BED LINER </a> </span> <span class=\"l2\"> <span class=\"price\">$75</span>
+        \ <span class=\"pnr\">  <span class=\"px\"> <span class=\"p\"> pic</span></span>
+        </span>  <a class=\"gc\" href=\"/pts/\" data-cat=\"pts\">auto parts - by owner</a>
+        </span> </p><h4 class=\"ban resultshdr\">\n\n\t\t<span class=\"nplink first\"
+        title=\"first page\">\n\t\t\t\n\t\t\t\t|&lt;<span class=\"nplabel\">first</span>\n\t\t\t\n\t\t</span>\n\t\t<div
+        class=\"npcontrols\">\n\t\t\t<div class=\"npcontrolcenter\">\n\t\t\t\t<span
+        class=\"nplink prev\" title=\"previous page\">\n\t\t\t\t\t\n\t\t\t\t\t\t&lt;<span
+        class=\"nplabel\">prev</span>\n\t\t\t\t\t\n\t\t\t\t</span>\n\t\t\t\t<span
+        class=\"nplink next\" title=\"next page\">\n\t\t\t\t\t<a href='http://sacramento.craigslist.org/search/?s=100&catAbb=sss&amp;maxAsk=100&amp;minAsk=1&amp;query=bed'>\n\t\t\t\t\t\t<span
+        class=\"nplabel\">next</span>&gt;\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span
+        class=\"pagenum\">1 - 100</span>\n\t\t\t</div>\n\t\t</div>\n\t\n</h4>\n\n\n
+        \           \n\n            <div id=\"floater\">\n                <img class=\"loading\"
+        src=\"http://www.craigslist.org/images/map/animated-spinny.gif\">\n                <img
+        class=\"payload\" src=\"http://www.craigslist.org/images/map/animated-spinny.gif\">\n
+        \           </div>\n\n            </blockquote>\n        </section>\n        \n
+        \       <ul id=\"fmtsel\">\n\t<li><b>FORMAT:</b></li>\n\t<li class=\"fsel\"
+        data-mode=\"mobile\">mobile</li>\n\t<li class=\"fsel\" data-mode=\"regular\">standard</li>\n</ul>\n\n<footer>\n\t\n\t\t\t<span
+        class=\"rss\">\n\t\t\t\t<a class=\"l\" href=\"http://sacramento.craigslist.org/search/?catAbb=sss&amp;maxAsk=100&amp;minAsk=1&amp;query=bed&amp;format=rss\">RSS</a>\n\t\t\t\t<a
+        href=\"http://www.craigslist.org/about/rss\">(?)</a><br>\n\t\t\t</span>\n\t\t\t\n\t<ul
+        class=\"clfooter\">\n\t\t<li>&copy; 2013 craigslist</li>\n\t\t<li><a href=\"//www.craigslist.org/about/help/\">help</a></li>\n\t\t<li><a
+        href=\"//www.craigslist.org/about/terms.of.use\">terms</a></li>\n\t\t<li><a
+        href=\"//www.craigslist.org/about/privacy.policy\">privacy</a></li>\n\t\t<li><a
+        href=\"//www.craigslist.org/about/scams\">safety</a></li>\n\t\t<li><a href=\"https://forums.craigslist.org/?forumID=8\">feedback</a></li>\n\t\t<li><a
+        href=\"//www.craigslist.org/about/\">about</a></li>\n\t\t<li><a href=\"//www.craigslist.org/about/craigslist_is_hiring\"
+        style=\"color: #0b0\">cl jobs</a></li>\n\t</ul>\n</footer>\n\n    </article>\n
+        \   <!--[if lte IE 7]>\n        <script type=\"text/javascript\" src=\"//www.craigslist.org/js/json2.js?v=c1da07f5953739dffc17fd1db3c5313c\"
+        ></script>\n    <![endif]-->\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/jquery-ui-1.9.2.custom.js?v=32c38510c8db71f2fbef00da891aeaac\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/formats.js?v=8dda079f4bef5b9d3770d85308f5f62b\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/toChecklist.js?v=b163a7aa23a6dad79076f92e56c622f7\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/jquery.form-defaults.js?v=421648d06bad2f29bbfc2f66c5205aeb\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/tocs.js?v=70ff2152caac4cd53e53a67cde750fb8\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/favorites.js?v=c2dbff2669a8f8bcc8654905d51e3c11\"
+        ></script>\n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/search-suggestions.js?v=8212aa9683b559aa901a610db98fde6f\"
+        ></script>\n    \n    <script type=\"text/javascript\" src=\"//www.craigslist.org/js/postings.js?v=9589bd8f9d29f0f58688588f664552cf\"
+        defer async></script>\n</body>\n</html>\n\n\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 04:36:10 GMT
+recorded_with: VCR 2.6.0

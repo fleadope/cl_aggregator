@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
+
 gem 'rails', '4.0.0'
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
@@ -14,7 +15,7 @@ gem 'simple_form', '>= 3.0.0.rc'
 gem 'slim'
 gem 'thin'
 gem "chronic"
-gem "typhoeus"
+gem "faraday"
 gem "sucker_punch"
 gem "nokogiri"
 gem 'uri-handler'
@@ -28,6 +29,7 @@ group :development do
   gem 'quiet_assets'
   gem 'rails_layout'
   gem 'pry-rails'
+  gem 'awesome_print'
 end
 
 group :development, :test do
@@ -44,6 +46,8 @@ group :development, :test do
   gem "rb-inotify", require: false
   gem "rb-fsevent", require: false
   gem "rb-fchange", require: false
+  gem 'vcr'
+  gem 'fuubar'
 end
 
 group :test do

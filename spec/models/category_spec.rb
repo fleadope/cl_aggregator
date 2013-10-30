@@ -1,5 +1,7 @@
 require 'spec_helper'
 
 describe Category do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "should have a default" do
+    expect(Category.default).to eq('sss')
+  end
 end
